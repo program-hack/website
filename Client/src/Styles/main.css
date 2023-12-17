@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: rgba(254,0,74);
+    --background-light: #fff;
+    --background-dark: #000;
+    --color-dark: #000;
+    --color-light: #fff;
+
+    --font-family: 'Nunito', sans-serif;
+    --overflow: hidden;
+
+    --background-rgba: rgba(0, 0, 0, 0.5);
+}
