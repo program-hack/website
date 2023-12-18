@@ -5,6 +5,7 @@ import { FiSearch } from "react-icons/fi";
 import { FaBell, FaStar, FaUser } from "react-icons/fa6";
 import Button from '@mui/material/Button';
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
 
 const Header = () => {
 
@@ -31,16 +32,19 @@ const Header = () => {
                 <div className={classes.panel}>
                     <div className={classes.panel_inner}>
                         <div className={classes.panel_header}>
-                            
+                            <p>Menu</p>
+                            <Button onClick={panel} className={classes.close_btn}><IoClose /></Button>
                         </div>
-                        <ul>
-                            <li><Button>Hello World</Button></li>
-                            <li><Button>Hello World</Button></li>
-                            <li><Button>Hello World</Button></li>
-                            <li><Button>Hello World</Button></li>
-                            <li><Button>Hello World</Button></li>
-                            <li><Button>Hello World</Button></li>
-                        </ul>
+                        <div className={classes.panel_main_content}>
+                            <ul>
+                                <li><Button>Hello World</Button></li>
+                                <li><Button>Hello World</Button></li>
+                                <li><Button>Hello World</Button></li>
+                                <li><Button>Hello World</Button></li>
+                                <li><Button>Hello World</Button></li>
+                                <li><Button>Hello World</Button></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             )}

@@ -14,4 +14,6 @@
     --overflow: hidden;
 
     --background-rgba: rgba(0, 0, 0, 0.5);
+
+    --list-style: none;
 }

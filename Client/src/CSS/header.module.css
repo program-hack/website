@@ -163,4 +163,44 @@
     background-color: var(--background-light);
     z-index: 1000;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    overflow: var(--overflow);
+}
+
+.panel_inner {
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+.panel_header {
+    border-bottom: 1.6px solid var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.panel_header p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.panel_header .close_btn {
+    color: var(--color-dark);
+    font-size: 28px;
+}
+
+.panel_main_content ul {
+    list-style: var(--list-style);
+}
+
+.panel_main_content ul li {
+    margin: 15px 0;
+}
+
+.panel_main_content ul li Button {
+    font-family: var(--font-family);
+    color: var(--color-dark);
+    font-weight: 700;
+    font-size: 17px;
 }
